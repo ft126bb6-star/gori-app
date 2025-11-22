@@ -30,15 +30,15 @@ function updateUI() {
 
   // --- たけしの3段階進化 ---
   if (muscle >= LEVEL3) {
-    takeshiImgEl.src = "c:/Users/yamad/OneDrive/Desktop/GORI-APP/assets/img/takeshi_lv3.png.PNG";
+    takeshiImgEl.src = "assets/img/takeshi_lv3.png.PNG";
     levelTextEl.textContent = "たけし LV3（MAX）";
 
   } else if (muscle >= LEVEL2) {
-    takeshiImgEl.src = "c:/Users/yamad/OneDrive/Desktop/GORI-APP/assets/img/takeshi_lv2.png.PNG";
+    takeshiImgEl.src = "assets/img/takeshi_lv2.png.PNG";
     levelTextEl.textContent = "たけし LV2";
 
   } else {
-    takeshiImgEl.src = "c:/Users/yamad/OneDrive/Desktop/GORI-APP/assets/img/takeshi_lv1.png.PNG";
+    takeshiImgEl.src = "assets/img/takeshi_lv1.png.PNG";
     levelTextEl.textContent = "たけし LV1";
   }
 
@@ -94,3 +94,4 @@ resetBtn.addEventListener("click", () => {
 
 // 初期表示
 updateUI();
+
