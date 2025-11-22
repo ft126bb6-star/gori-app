@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ゴリゴリマッスル 💪🍌🦍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="game-wrapper">
+    <h1>ゴリゴリマッスル 💪🍌🦍</h1>
+
+    <div class="game-card">
+
+      <!-- キャラ3体 -->
+      <div class="character-area">   
+
+        <!-- たけし -->
+        <div class="character-box">
+          <img id="takeshi-img" src="c:/Users/yamad/OneDrive/Desktop/GORI-APP/assets/img/takeshi_lv1.png.PNG" alt="たけし">
+          <span class="label">たけし</span>
+        </div>
+
+        <!-- クロコデビル卿 -->
+        <div class="character-box">
+          <img id="rival-croco" src="c:/Users/yamad/OneDrive/Desktop/GORI-APP/assets/img/rival_crocodevil.png.PNG" alt="クロコ" class="hidden">
+          <span class="label">クロコデビル卿</span>
+        </div>
+
+        <!-- スーパーラビット -->
+        <div class="character-box">
+          <img id="rival-rabbit" src="c:/Users/yamad/OneDrive/Desktop/GORI-APP/assets/img/rival_rabbit.png.PNG" alt="ラビット" class="hidden">
+          <span class="label">スーパーラビット</span>
+        </div>
+
+      </div>
+
+      <!-- ステータス表示 -->
+      <div class="status-area">
+        <div class="status-top">
+          <span>筋肉ゲージ</span>
+          <span id="muscle-value">0 / 30</span>
+        </div>
+
+        <p id="level-text" class="level-text">たけし LV1</p>
+
+        <div class="gauge-outer">
+          <div class="gauge-inner" id="muscle-bar"></div>
+        </div>
+
+        <div class="message" id="message">
+          バナナを食べさせてマッスルアップだ！
+        </div>
+      </div>
+
+      <!-- ボタン -->
+      <div class="buttons">
+        <button id="banana-btn">バナナを食べさせる 🍌</button>
+        <button id="reset-btn">リセット</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="assets/js/main.js.js"></script>
+</body>
+</html>
+
+
+
